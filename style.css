@@ -1,45 +1,14 @@
+/* Common styling */
+
 body {
    font-family: arial, times, serif;
    margin: 0;
 
 }
 
-p, h1, h3, ol {
-    
+p, h2, h3, ol {
     color: #e5e7eb;
-}
-
-ol {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-.headersection {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.firstsection {
-    background-color: #1f2937;
-}
-
-.awesomesection {
-    display: flex;
-    gap: 50px;
-    padding: 100px;
-}
-
-.awesomecolumn {
-    display: flex;
-    flex-direction: column;
-}
-
-.maintext {
-font-size: 48px;
-font-weight: 800;
-color: #F9FAF8;
+    margin: 0;
 }
 
 .buttonstyle {
@@ -51,3 +20,46 @@ color: #F9FAF8;
     border-radius: 12px;
     border: 0;
 }
+
+/* First section */
+
+.headersection {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+ol {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.firstsection {
+    background-color: #1f2937;
+}
+
+.awesomesection {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+    padding: 100px;
+    gap: -50px;
+
+}
+
+.awesomecolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow-wrap: break-word;
+    width: 40%;
+}
+
+.maintext {
+font-size: 48px;
+font-weight: 800;
+color: #F9FAF8;
+}
+
+/* Second section */
