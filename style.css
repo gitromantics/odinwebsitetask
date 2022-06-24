@@ -1,0 +1,52 @@
+body {
+   font-family: arial, times, serif;
+   margin: 0;
+
+}
+
+p, h1, h3, ol {
+    color: #e5e7eb;
+}
+
+ol {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.headersection {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.firstsection {
+    background-color: #1f2937;
+}
+
+.awesomesection {
+    display: flex;
+    gap: 50px;
+    padding: 100px;
+}
+
+.awesomecolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.maintext {
+font-size: 48px;
+font-weight: 800;
+color: #F9FAF8;
+}
+
+.buttonstyle {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-weight: 600;
+    width: 95px;
+    height: 35px;
+    border-radius: 12px;
+    border: 0;
+}
