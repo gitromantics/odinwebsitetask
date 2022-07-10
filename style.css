@@ -42,11 +42,9 @@ ol {
 
 .awesomesection {
     display: flex;
-    align-content: flex-start;
-    justify-content: space-around;
+    justify-content: center;
     padding: 100px;
-    gap: -50px;
-
+    gap: 150px;
 }
 
 .awesomesection img {
@@ -59,7 +57,7 @@ ol {
     flex-direction: column;
     gap: 10px;
     overflow-wrap: break-word;
-    width: 40%;
+    width: 30%;
 }
 
 .maintext {
