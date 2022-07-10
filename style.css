@@ -6,7 +6,7 @@ body {
 
 }
 
-p, h2, h3, ol {
+p, h2, h3, h4, ol {
     color: #e5e7eb;
     margin: 0;
 }
@@ -162,9 +162,29 @@ color: #F9FAF8;
     border-radius: 10px;
     background-color: #3882F6;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    
  }
+
+ .fourtext {
+    flex-direction: column;
+ }
+
+ .buttonstyle2 {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-weight: 900;
+    font-size:medium;
+    width: 130px;
+    height: 35px;
+    border-radius: 12px;
+    border-color: white;
+    border-style: solid;
+ }
+
+
 
   /* Fifth section */
   .footer {
