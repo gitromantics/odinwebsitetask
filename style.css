@@ -57,7 +57,7 @@ ol {
 .awesomecolumn {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     overflow-wrap: break-word;
     width: 40%;
 }
@@ -127,11 +127,13 @@ color: #F9FAF8;
     padding: 0 50px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 800px;
     gap: 20px;
 }
 
 .italics {
-    display: flex;
     font: italic 36px sans-serif;
     font-weight: 300;
     color:rgb(66, 66, 66);
